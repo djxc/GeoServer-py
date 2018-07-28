@@ -75,7 +75,7 @@ def publish_featuretype(cat, featureName):
     store = cat.get_store('myStore')
     featureType = cat.publish_featuretype(featureName, store, native_crs)
     print(featureType)
-
+    
 
 def create_wmslayer(workspaceName, storeName, name):
      workspace = cat.get_workspace(workspaceName)

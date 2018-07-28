@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FeatureTypeInfo>
+	<name>poi</name>
+	<nativeName>poi</nativeName>
+	<namespace>
+		<name>tiger</name>
+	</namespace>
+	<title>Manhattan (NY) points of interest</title>
+	<abstract>Points of interest in New York, New York (on Manhattan). One of the attributes contains the name of a file with a picture of the point of interest.</abstract>
+	<keywords>
+		<string>poi</string>
+		<string>Manhattan</string>
+		<string>DS_poi</string>
+		<string>points_of_interest</string>
+		<string>sampleKeyword\@language=ab\;</string>
+		<string>area of effect\@language=bg\;\@vocabulary=technical\;</string>
+		<string>Привет\@language=ru\;\@vocabulary=friendly\;</string>
+	</keywords>
+	<metadatalinks>
+		<metadataLink>
+			<type>string</type>
+			<metadataType>string</metadataType>
+			<content>string</content>
+		</metadataLink>
+	</metadatalinks>
+	<dataLinks>
+		<metadataLink>
+			<type>string</type>
+			<content>string</content>
+		</metadataLink>
+	</dataLinks>
+	<nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+	<srs>EPSG:4326</srs>
+	<nativeBoundingBox>
+		<minx>-74.0118315772888</minx>
+		<maxx>-74.00153046439813</maxx>
+		<miny>40.70754683896324</miny>
+		<maxy>40.719885123828675</maxy>
+		<crs>EPSG:4326</crs>
+	</nativeBoundingBox>
+	<latLonBoundingBox>
+		<minx>-74.0118315772888</minx>
+		<maxx>-74.00857344353275</maxx>
+		<miny>40.70754683896324</miny>
+		<maxy>40.711945649065406</maxy>
+		<crs>EPSG:4326</crs>
+	</latLonBoundingBox>
+	<metadata>
+		<@key>regionateStrategy</@key>
+		<$>string</$>
+	</metadata>
+	<store>
+		<@class>dataStore</@class>
+		<name>tiger:nyc</name>
+		<href>http://localhost:8080/geoserver/rest/workspaces/tiger/datastores/nyc.json</href>
+	</store>
+	<cqlFilter>INCLUDE</cqlFilter>
+	<maxFeatures>100</maxFeatures>
+	<numDecimals>6</numDecimals>
+	<responseSRS>
+		<string>
+			<0>4326</0>
+		</string>
+	</responseSRS>
+	<overridingServiceSRS>true</overridingServiceSRS>
+	<skipNumberMatched>true</skipNumberMatched>
+	<circularArcPresent>true</circularArcPresent>
+	<linearizationTolerance>10</linearizationTolerance>
+	<attributes>
+		<attribute>
+			<name>the_geom</name>
+			<minOccurs>0</minOccurs>
+			<maxOccurs>1</maxOccurs>
+			<nillable>true</nillable>
+			<binding>com.vividsolutions.jts.geom.Point</binding>
+			<length>0</length>
+		</attribute>
+		<attribute>
+			<name>the_geom</name>
+			<minOccurs>0</minOccurs>
+			<maxOccurs>1</maxOccurs>
+			<nillable>true</nillable>
+			<binding>com.vividsolutions.jts.geom.Point</binding>
+			<length>0</length>
+		</attribute>
+		<attribute>
+			<name>the_geom</name>
+			<minOccurs>0</minOccurs>
+			<maxOccurs>1</maxOccurs>
+			<nillable>true</nillable>
+			<binding>com.vividsolutions.jts.geom.Point</binding>
+			<length>0</length>
+		</attribute>
+		<attribute>
+			<name>the_geom</name>
+			<minOccurs>0</minOccurs>
+			<maxOccurs>1</maxOccurs>
+			<nillable>true</nillable>
+			<binding>com.vividsolutions.jts.geom.Point</binding>
+			<length>0</length>
+		</attribute>
+	</attributes>
+</FeatureTypeInfo>

@@ -1,0 +1,11 @@
+<dataStore>
+  <name>nyc</name>
+  <connectionParameters>
+    <host>121.248.96.162</host>
+    <port>5432</port>
+    <database>dj_test</database>
+    <user>postgres</user>
+    <passwd>123dj321</passwd>
+    <dbtype>postgis</dbtype>
+  </connectionParameters>
+</dataStore>

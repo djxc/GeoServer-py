@@ -1,0 +1,24 @@
+<dataStore>
+    <name>myStore</name>
+    <description>tiger counties created from REST</description>
+
+    <type>Shapefile</type>
+
+    <enabled>true</enabled>
+    <connectionParameters>
+
+        <entry key="memory mapped buffer">false</entry>
+
+        <entry key="create spatial index">true</entry>
+
+        <entry key="charset">UTF-8</entry>
+
+        <entry key="filetype">shapefile</entry>
+
+        <entry key="cache and reuse memory maps">true</entry>
+        
+        <entry key="url">/home/dj/2018/python/Data/region.shp</entry>
+        <entry key="namespace">http://www.djxc.com</entry>
+    </connectionParameters>
+    <__default>false</__default>
+</dataStore>
